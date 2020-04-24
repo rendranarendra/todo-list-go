@@ -14,7 +14,7 @@ type Post struct {
 	Owner            primitive.ObjectID `json:"owner"`
 	Title            string             `json:"title"`
 	DueDate          string             `json:"dueDate"`
-	Importance       int                `json:"importance"`
+	Importance       bool                `json:"importance"`
 	Completed        bool               `json:"false"`
 }
 
